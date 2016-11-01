@@ -1,0 +1,92 @@
+* {
+	font-family: 'Open Sans', sans-serif;
+	text-decoration: none;
+}
+
+body, header, nav, nav ul {
+	margin: 0px;	
+}
+
+nav {
+	height: 75px;
+	width: 100%;
+	position: fixed;
+	background-color: grey;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+nav ul, nav ul li {
+	display: inline-block;
+	list-style: none;
+}
+
+.logo {
+	display: inline-block;
+	color: black !Important;
+	padding-: px;
+}
+
+.menu a {
+	color: purple !Important;
+	padding-right: px;
+}
+
+input {
+	margin-top: 125px;
+	margin-left: 125px;
+	padding: 2px 4px;
+	height: 25px;
+	width: 400px;
+	border: 1px solid grey;
+    border-radius: 2px;
+}
+
+input[type=submit] {
+}
+
+.pages1, .pages2, .pages3 {
+	margin-top: 50px;
+	width: 75px;
+	height: 30px;
+	margin-top: 50px;
+	display: inline-block;
+	border: 1px solid grey;
+}
+
+.pages1 {
+	margin-left: 125px !Important;
+}
+
+.pages2 {
+	width: 125px !Important;
+}
+
+.classifieds {
+	margin-top: 50px;
+}
+
+.links {
+	margin-left: 90px;
+	list-style: none;
+}
+
+.date {
+	font-weight: 500;
+	display: inline-block;
+	color: grey !Important;
+}
+
+.listing {
+	padding-left: 10px;
+	font-weight: 900;
+	display: inline-block;
+	color: blue !Important;
+}
+
+.location {
+	padding-left: 10px;
+	font-weight: 900;
+	display: inline-block;
+	color: grey !Important;
+}
